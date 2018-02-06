@@ -18,6 +18,11 @@ $counter = 1;
 
 echo $name . " " . $lastName;
 
+while($counter <= 100){
+	echo "hello ";
+	$counter ++;
+}
+
 ?>
 
 
