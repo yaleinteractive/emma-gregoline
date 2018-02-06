@@ -6,17 +6,6 @@
 </head>
 <body>
 
-<!-- <?php
-	$name = "Veronica";
-	$lastName = "Smith";	
-	$table = ["veronica", "varonica"]
-?>
-
-<p>hello 
-	<?php 
-		echo $name . " " . $lastName;
-	?> 
-</p> -->
 
 
 Hello
@@ -34,8 +23,6 @@ echo $name . " " . $lastName;
 
 </body>
 </html>
-
-
 
 
 <!-- while ($counter <= $number) {
