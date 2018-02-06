@@ -12,9 +12,9 @@ Hello
 
 <?php
 
-$name = "Veronica";
+$name = $_GET['name'];
 $lastName = $_GET['lastname'];
-$counter = 1;
+$counter = $_GET[number];
 
 echo $name . " " . $lastName;
 
