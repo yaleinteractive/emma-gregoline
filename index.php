@@ -19,7 +19,7 @@ $counter = $_GET[number];
 echo $name . " " . $lastName;
 
 while($counter <= 100){
-	echo "hello ";
+	echo $name . " ";
 	$counter ++;
 }
 
