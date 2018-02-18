@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/site.css">
+    <title>Guests</title>
+  </head>
+  <body>
+      <section>
+        <button class="toggle"></button>
+<!--         <form class="tweaks">
+<!--           <label> -->
+   <!--          Pixel Diff Threshold
+            <input id="pixel-diff-threshold" type="number" min="0" max="255" disabled>
+          </label>
+          <label>
+            Score Threshold
+            <input id="score-threshold" type="number" min="0" disabled>
+          </label>
+
+          <input type="submit" tab-index="-1" class="submit-tweaks" disabled>
+        </form> --> 
+      </section>
+
+   <!--    <section>
+        <div class="status"></div>
+        <div class="progress">
+          <div class="meter"></div>
+        </div>
+      </section> -->
+
+      <section class="feedback">
+        <figure>
+          <video class="video"></video>
+<!--           <figcaption>Live Stream</figcaption> -->
+        </figure>
+      <!--   <figure>
+          <canvas class="motion"></canvas>
+          <figcaption>
+            Motion Heatmap
+            <span class="motion-score"></span>
+          </figcaption>
+        </figure> -->
+      </section>
+
+      <section class="history">
+      </section>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="js/lib/adapter.js"></script>
+      <script src="js/vendor/diff-cam-engine.js"></script>
+      <script src="js/site.js"></script>
+
+      <template id="history-item-template">
+        <figure>
+          <img>
+          <figcaption>
+            <span class="time"></span>
+            <span class="guestnumber"></span>            
+          </figcaption>
+        </figure>
+      </template>
+  </body>
+</html>
