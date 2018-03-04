@@ -10,7 +10,7 @@
 
 <?php
 
-$letter = strtoupper($_GET['letter']);
+$letter = $_GET['letter'];
 $number = $_GET[number];
 
 $counter = 1;
@@ -35,11 +35,6 @@ while ($counter <= $number) {
 	if ($size > 100) {
 		$size == $size / 10;
 	}
-
-
-//Ruby
-	if (letter == 'a')
-
 
 
 	$counter++;
