@@ -37,7 +37,7 @@
 		$counter = 1;
 
 		if ($counter <= $number) {
-			echo '<p class="round" style="transform:scaleY(' . ($number) . ')">' . ($letter);	
+			echo '<p class="round" style="transform:scaleY(' . $number . ')">' . $letter;	
 		}
 
 		$counter++;
